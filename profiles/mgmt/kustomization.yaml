@@ -1,0 +1,8 @@
+---
+kind: Kustomization
+
+resources:
+  - ./infra/capi-system.yaml
+  - ./infra/capg-system.yaml
+  - ./infra/cert-manager.yaml
+  - ./infra/kyverno.yaml
