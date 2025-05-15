@@ -1,0 +1,6 @@
+---
+kind: Kustomization
+
+resources:
+  - ./infra/cert-manager.yaml
+  - ./infra/kyverno.yaml
